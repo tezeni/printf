@@ -1,10 +1,11 @@
 #include "main.h"
-
+#include <stdio.h>
 
 int main()
 {
-	_printf("%C", 'c');
+	char b;
+	b = 'a';
+
+	printf("%c", b);
 	return (0);
 }
-
-
