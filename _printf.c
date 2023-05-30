@@ -7,11 +7,9 @@
  * Return: the output printed
 **/
 
-int _printf(const char *format, ...){
-
-  int count = 0, i;
-
-  
+int _printf(const char *format, ...)
+{
+	int count = 0, i;
 
   va_list data;
 
@@ -71,5 +69,6 @@ int _printf(const char *format, ...){
 
 
   }
+ va_end(data);
  return (count);
 }
