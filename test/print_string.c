@@ -1,5 +1,10 @@
 #include"main.h"
 
+/**
+ * print_string - function to print string
+ * @string: the string to be printed
+ * Return: the output
+**/
 int print_string(char *string){
 
   int count = 0;

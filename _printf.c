@@ -1,6 +1,11 @@
 #include <stdarg.h>
 #include"main.h"
 
+/**
+ * _printf - function to handle s c %
+ * @format: the input argument we recived
+ * Return: the output printed
+**/
 
 int _printf(const char *format, ...){
 

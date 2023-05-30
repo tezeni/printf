@@ -1,5 +1,5 @@
-#ifndef _MAIN_
-#define _MAIN_
+#ifndef MAIN
+#define MAIN
 
 int _putchar(char c);
 int print_string(char *);

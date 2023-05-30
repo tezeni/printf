@@ -6,6 +6,6 @@ int main()
 	char b;
 	b = 'a';
 
-	printf("%c", b);
+	_printf("%c", b);
 	return (0);
 }
