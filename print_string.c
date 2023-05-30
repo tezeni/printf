@@ -5,20 +5,19 @@
  * @string: the string to be printed
  * Return: the output
 **/
-int print_string(char *string){
+int print_string(char *string)
+{
 
-  int count = 0;
-  int i;
+	int count = 0;
+	int i;
 
 
-  for ( i = 0; string[i] != '\0'; i++){
+	for (i = 0; string[i] != '\0'; i++)
+	{
 
-    count += _putchar(string[i]);
+		count += _putchar(string[i]);
+	}
 
-  }
-
-  
-
-  return (count);
+	return (count);
 
 }
