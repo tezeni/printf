@@ -2,25 +2,6 @@
 #include"main.h"
 
 
-int print_string(char *string){
-
-  int count = 0;
-  int i;
-
-
-  for ( i = 0; string[i] != '\0'; i++){
-
-    count += _putchar(string[i]);
-
-  }
-
-
-
-  return (count);
-
-}
-
-
 int _printf(const char *format, ...){
 
   int count = 0, i;
@@ -30,11 +11,6 @@ int _printf(const char *format, ...){
   va_list data;
 
   va_start(data, format);
-
-
-
-  /* _printf("%s", 'Hello') */
-
   
 
   for (i = 0; format[i] != '\0'; ){
